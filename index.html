@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.1.2/tailwind.min.css" />
+    <link rel="stylesheet" href="components/style.css" />
+  </head>
+  <body>
+    <div class="background" id="background"></div>
+
+    <div class="bg-white rounded p-10 text-center shadow-md">
+      <h1 class="text-3xl">Sign Up</h1>
+      <p class="text-sm text-gray-700">Already have account? <a href="https://google.com">Login</a></p>
+      <div class="my-4 text-left">
+        <label class="text-gray-800">Email</label>
+        <input type="email" class="border block w-full p-2 mt-2 rounded" placeholder="Enter email..." />
+      </div>
+      <div class="my-4 text-left">
+        <label class="text-gray-800">Username</label>
+        <input type="username" class="border block w-full p-2 mt-2 rounded" placeholder="Enter username..." />
+      </div>
+      <div class="my-4 text-left">
+        <label class="text-gray-800">Password</label>
+        <input id="password" type="password" class="border block w-full p-2 mt-2 rounded" placeholder="Enter password..." />
+      </div>
+
+      <button class="join" class="border block w-full p-2 mt-2 rounded">Join</button>
+      <br />
+      <p>By joining, you agree to the <a href="https://google.com">Terms</a> and <a href="https://google.com">Privacy Policy</a></p>
+    </div>
+
+    <script src="components/script.js"></script>
+  </body>
+</html>
